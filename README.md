@@ -1,5 +1,7 @@
 # copy-to-clipboard
 
+![Test status](https://github.com/wlsf82/copy-to-clipboard/actions/workflows/ci.yml/badge.svg)
+
 Sample project to demonstrate how to test copy to clipboard with Cypress.
 
 ## Pre-requirements
