@@ -1,0 +1,20 @@
+{
+  "name": "copy-to-clipboard",
+  "version": "1.0.0",
+  "description": "Sample project to demonstrate how to test copy to clipboard with Cypress.",
+  "main": "index.html",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "Talking About Testing",
+    "Cypress.io",
+    "cy.handsOn()"
+  ],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}

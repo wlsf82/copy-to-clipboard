@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Copy to clipboard example page</title>
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Copy to clipboard sample</h1>
+    <input type="text" value="Hello World" id="copy-to-clipboard-input-field">
+    <button onclick="copyToClipboard()">Copy to clipboard</button>
+    <script>
+      function copyToClipboard() {
+        const copyText = document.getElementById("copy-to-clipboard-input-field")
+
+        copyText.select() // Select the text field
+        copyText.setSelectionRange(0, 99999) // For mobile devices
+
+        // Copy the text inside the text field
+        navigator.clipboard.writeText(copyText.value)
+      }
+    </script>
+  </body>
+</html>
