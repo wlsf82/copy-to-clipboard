@@ -1,7 +1,9 @@
 it('copies input field text to the clipboard', () => {
   cy.visit('./index.html')
 
-  cy.contains('button', 'Copy to clipboard').click()
+  cy.contains('button', 'Copy to clipboard')
+    .focus()
+    .click()
 
   cy.assertValueCopiedToClipboard('Hello World')
 
@@ -9,7 +11,9 @@ it('copies input field text to the clipboard', () => {
     .clear()
     .type('Foo bar baz')
 
-  cy.contains('button', 'Copy to clipboard').click()
+  cy.contains('button', 'Copy to clipboard')
+    .focus()
+    .click()
 
   cy.assertValueCopiedToClipboard('Foo bar baz')
 })
