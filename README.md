@@ -8,7 +8,7 @@ Sample project to demonstrate how to test copy to clipboard with Cypress.
 
 It is required to have Node.js and npm installed to run this project.
 
-> I used versions `v16.13.2` and `8.3.2` of Node.js and npm, respectively. I suggest you use the same or later versions.
+> I used versions `v16.13.2` and `8.3.2` of Node.js and npm, respectively. I suggest you use the same or later LTS versions.
 
 ## Installation
 
